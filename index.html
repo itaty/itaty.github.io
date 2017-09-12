@@ -11,6 +11,7 @@
 			
 			body, html {
     height: 100%;
+    margin: 0%;
 			}
     .bg {
     background-image: url("images/earth-blue.jpg");
@@ -18,9 +19,9 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-
+    background-attachment: fixed;
 }
-   
+
 			ul {
     list-style-type: none;
     margin: 0;
@@ -46,23 +47,27 @@ li a:hover {
 }
 		
 	h1 {
-			color:white;
-			position: absolute;
+		color:white;
+		position:absolute;
+		text-align: center;
+		
 }	
-	img {
-   position: absolute;
-	top: 50%;	
-	left: 50%;
-	transform: translate(-50%, -50%);
-}
+
+   img {
+       position: absolute;
+    top: 30%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%); 
+    margin: 0%;
+   }
 		</style>
 		
 	</head>
 	<body>
 		<h1>Home</h1>
-    <body background="images/earth-blue.jpg" bgcolor="#9bb6c6">
+	
+   <center><img src="images/red-earth.jpg" alt="Zathura gameboard" style="width: 641; height:925;"></center>
 	<div class="bg"></div>
-	
-	
 	</body>
 </html>
