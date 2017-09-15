@@ -1,0 +1,50 @@
+    body, html {
+    height: 100%;
+    margin:0%;
+}
+    .bg {
+    background-image: url("images/fake-interstellar.jpg");
+    height: 100%; 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+			ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: white;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: #227799;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #d1eced;
+}
+	
+	h1 {
+		    color:white;
+		    position: absolute;
+}	   
+	img {
+   position: absolute;
+    top: 30%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%); 
+    margin: 0%;
+       
+}
