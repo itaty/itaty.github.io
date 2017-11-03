@@ -1,22 +1,9 @@
-	body, html {
-    height: 100%;
-    margin: 0%;
-}
-    .bg {
-    background-image: url("images/earth-blue.jpg");
-    height: 100%; 
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
-}
-
-			ul {
+ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #ffffff;
+    background-color: white;
 }
 
 li {
@@ -25,27 +12,68 @@ li {
 
 li a {
     display: block;
-    color: #3b5c91;
+    color: #227799;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
 }
 
 li a:hover {
-    background-color: #d5e4ef;
+    background-color: #d1eced;
 }
-		
-	h1 {
-		color:white;
-		position:absolute;
-}	
+	
 
-   img {
-       position: absolute;
-    top: 30%;
-    left: 50%;
-    margin-right: -50%;
-    transform: translate(-50%, -50%); 
-    margin: 0%;
+	img {
+  max-width: 100%;
+    height: auto;
        
+}
+h1{
+        color:white;
+	font-size: 40px;
+	text-align: center;
+	text-decoration: underline;
+}
+h2 {
+    color:white;
+    font-size: 25px
+}
+ body {
+         background-color: lightblue;
+    }
+ .container {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.bottom-left {
+    position: absolute;
+    bottom: 8px;
+    left: 16px;
+}
+
+.top-left {
+    position: absolute;
+    top: 8px;
+    left: 16px;
+}
+
+.top-right {
+    position: absolute;
+    top: 8px;
+    right: 16px;
+}
+
+.bottom-right {
+    position: absolute;
+    bottom: 8px;
+    right: 16px;
+}
+
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
