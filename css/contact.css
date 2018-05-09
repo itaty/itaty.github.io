@@ -12,14 +12,14 @@ li {
 
 li a {
     display: block;
-    color: #d284ff;
+    color: #227799;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
 }
 
 li a:hover {
-    background-color: #f2ddff;
+    background-color: #f9efff;
 }
 img {
     max-width: 50%;
@@ -37,6 +37,6 @@ h2 {
     font-size: 25px
 }
 body {
-    background-color: #afd7ff;
+    background-color: #f4e2ff;
     }
 

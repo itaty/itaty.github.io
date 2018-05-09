@@ -9,7 +9,6 @@ ul {
 li {
     float: left;
 }
-
 li a {
     display: block;
     color: #e24444;
@@ -17,12 +16,10 @@ li a {
     padding: 14px 16px;
     text-decoration: none;
 }
-
 li a:hover {
     background-color: #fcd4d4;
 }
-	
-	h1 {
+h1 {
 		    color:white;
 	font-size: 40px;
 	text-align: center;
@@ -40,40 +37,8 @@ body {
 
 }
 
-.top-text {
-    font-size: 45px;
-    padding-bottom: 10px;
 
-}
-.video-grid {
-    display: grid;
-    justify-content: center;
-}
 
-.video {
-    grid-column: 1;
-    grid-row: 1/3;
-}
 video {
-    width: 100%;
+    width: 50%;
 }
-.video-write {
-    grid-column: 2;
-    grid-row: 1;
-}
-.app-write {
-    grid-column: 2;
-    grid-row: 2;
-}
-.ph-text {
-    font-size: 30px;
-    margin: 0;
-    letter-spacing: 2px;
-
-}
-.p-text {
-    line-height: 2em;
-    font-size: 17px
-}
-
-

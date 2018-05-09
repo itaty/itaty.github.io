@@ -2,32 +2,36 @@
 <html lang="en">
 	<head>
 		<meta charset="utf-8">
+		<meta name="description" content="This is a portoflio that 
+		holds all the projects I have done in my Computer Science and 
+		Software Engineering class this year.">
+		<meta name="keywords" content="HTML,CSS">
+		<meta name="author" content="Itaty Marquez">
 		<title>Projects</title>
-
-		<link rel="stylesheet" href="css/projects.css">
+		<link rel="shortcut icon" href="images/favicon.ico">
+		<link rel="icon" type="image/gif" href="animated_favicon1.gif">
+		<link rel="stylesheet" type="text/css" href="css/projects.css">
 			</head>
 	<body>
 					<ul>
 			<li><a class="active" href="index.html">Home</a></li>
 			<li><a href="projects.html">Projects</a></li>	
 			<li><a href="about.html">About Me</a></li>
-		
+			<li><a href="contact.html">Contact</a></li>
 		</ul>
-		<div class="container">
+
 		<h1>Projects</h1>
 
 	   
-	        <h1 class="top-text">Android App Project</h1>
-	        <div class="video-grid">
-		    <div class= "video grid-box">
+	        <h1>Android App Project</h1>
+
 		    <video controls muted height="500" width="100">
   			<source src="links/recording.mp4" type="video/mp4" />
 			</video>
 		        
-		        </div>
-		        <div class="video-write grid-box">
-		        	<h2 class="ph-text">Video Summary</h2>
-		        	<p class="p-text">As the app screen opens the branding screen is visible. After it disappears, the 
+
+		        	<h2>Video Summary</h2>
+		        	<p>As the app screen opens the branding screen is visible. After it disappears, the 
 		        	beginning screen is visible and the play and about buttons are available to click. Once hitting the 
 		        	play button, the first question appears. By choosing the correct answer, a ding sound happens and the 
 		        	screen moves to the next question. The point of the game is to complete the five questions available. 
@@ -37,9 +41,9 @@
 		        	will take you to the about page and tell you who created the app.</p>
 		        		
 		    
-		        <div class="app-write grid-box">
-		        	<h2 class="ph-text">Written Response</h2>
-		        	<p class="p-text">While making the android app project, there were many difficulties encountered 
+
+		        	<h2>Written Response</h2>
+		        	<p>While making the android app project, there were many difficulties encountered 
 		        	especially with being new to coding. Making a quiz app could have been easy by just making a different 
 		        	screen for each question and going to the next screen for choosing the correct answer etc., but 
 		        	that amount of screens would crash the game. Making it more intricate by mixing up the choices 
@@ -57,9 +61,62 @@
 					visibility to false and vise versa for the player to actually be able to play the game. </p>
          		
          
-         <p><a href="/links/quizChallenge.aia" download>Quiz Challenge AIA</a>  <a href="/links/quizchallenge.apk" download>Quiz Challenge APK</a></p>
+         <p><a href="/links/quizChallenge.aia" download target="_blank">Quiz Challenge AIA</a>  <a href="/links/quizchallenge.apk" download>Quiz Challenge APK</a></p>
+
+<hr>
+<h1>Python Project: Quiz Game</h1>
+	    
+		    <video controls muted height="500" width="100">
+  			<source src="videos/quiz_game_video.mp4" type="video/mp4" />
+			</video>
+		
+		              		<iframe height="400px" width="100%" src="https://repl.it/@itaty/quizgame?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
+
+		        		
+		    
+	
+		        	<h2>Written Response</h2>
+		        	<p>To make this quiz game we started out by asking the user to add a username. After that the first question is asked. Problems we experinced with coding this started when we wanted to add the guess counter. Originally if we had set it to have 
+		        	a certain amount of guesses. We then realized we could only make it so that it would just count the nuber of guesses it took for them to finish the quiz. The point of the game ended up being to finish it in as little guesses as possible. Another problem experienced happened when we needed to find where the guess counter was going to be. Eventually we found it needed to be in the if statement before it answered whether the question was correct or not.</p>
+
+<hr>
 
 
+		        <h1>RSA Project</h1>
+		  <video controls muted height="500" width="100">
+  			<source src="videos/SEND.mp4" type="video/mp4" />
+  				</video>
+		        	<h2>Video Summary</h2>
+		        <p>To start the program the user calls the start function. From there the program welcomes the user and 
+		        asks them if they would like to encrypt a message, decrypt a message, or exit the program. When the user picks
+		        encrypt, the program asks for an e value and an n value. The program logs in the numbers and shows the user it does 
+		        that by repeating the numbers they have logged after each one. Then the program asks the user to input the message they 
+		        would like to encrypt. The program then outputs the encrypted message and asks the user the question of the next action 
+		        they would like to do. When the user calls the decrypt function, the program asks for a d value and an n value. The 
+		        program logs in the numbers and shows the user it does that by repeating the numbers they have logged after each one,
+		        just like it did for the encrypt function. After that the decrypted message is outputted. If a user chooses to input 
+		        exit, the program then concludes.
+		        	
+		        </p>
+		        
+		        	<h2>Written Response</h2>
+		        	<p>To make the project we had to be able to decrypt and encrypt messages. We started by defining both of the functions. 
+		        	To encrypt, the program asks the user for the e and n values and the message they would like to encrypt. For the message given by the
+		        	user, we coded the program to numerize the characters in the message, encrypt it by using the numbers inputted, denumerize the final 
+		        	values, and then the final message is outputted. For the decrypt function, the program does the opposite of the encrypt function but 
+		        	it uses the d value instead of the e value. The whole program is run under the start function and is run under a while loop. One 
+		        	difficulty while making this program was encountered while incorporating the while loop. The problem was that we didn’t know how to 
+		        	program it using integer values, which is that the while loop uses, instead of the string values we were using. To fix that problem
+		        	we set it so that the while loop is running as long the user does not input the value ‘exit’. To do that we set ‘exit’ to a value of
+		        	one and the while loop runs as long as the user does not input the value of one(exit). Another problem encountered happened when we 
+		        	tried running the whole program and it would not work because the start function, which runs the encrypt and decrypt functions, was
+		        	programmed before the other defined functions, encrypt and decrypt. To fix that I moved the entire start function to ba after the 
+		        	encrypt and decrypt functions.</p>
+         		
+         <img src="images/coolcode.jpg" width="500" height="500">
+         <img src="images/key.jpg" width="500" height="500">
+
+         <p><a href="https://github.com/PhoenixDuarte/RSAyyy" download target="_blank">Github Repository</a>  <a href="https://github.com/PhoenixDuarte/RSAyyy/blob/master/RSAproject.py" download>Python File</a></p>
 
 	</body>
 </html>
